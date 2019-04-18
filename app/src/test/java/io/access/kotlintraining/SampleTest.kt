@@ -3,6 +3,7 @@ package io.access.kotlintraining
 import org.junit.Test
 import kotlin.test.assertEquals
 
+
 class SampleTest {
     @Test
     fun testWelcome() {
@@ -17,5 +18,6 @@ class SampleTest {
     @Test
     fun testHello() {
         // TODO: implement to call hello function
+        hello()
     }
 }
